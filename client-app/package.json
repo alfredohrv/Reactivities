@@ -11,19 +11,18 @@
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
     "axios": "^0.27.2",
+    "fomantic-ui": "^2.9.0-beta.288",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "^2.1.8",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.1",
+    "semantic-ui-react": "^2.1.2",
     "typescript": "^4.6.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
   },
   "eslintConfig": {
     "extends": [
